@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Curtains</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/house-with-garden.png" type="image/png"> <!-- Favicon -->
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://pbs.twimg.com/media/GOXaZfGWwAAsnQ4?format=png&name=small" alt="Elegant Curtains Logo" class="logo">
+            <h1></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to Elegant Curtains</h2>
+        <p>Your one-stop shop for custom-made curtains.</p>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <!-- Products will be dynamically inserted here by JavaScript -->
+        </div>
+    </section>
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form id="order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="product">Product:</label>
+            <select id="product" name="product" required>
+                <!-- Options will be dynamically inserted here by JavaScript -->
+            </select>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@elegantcurtains.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Elegant Curtains</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
